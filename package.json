@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/coral/turnserver/issues"
   },
-  "homepage": "https://github.com/coral/turnserver"
+  "homepage": "https://github.com/coral/turnserver",
+  "dependencies": {
+    "socket.io": "~1.1.0",
+    "lodash": "~2.4.1"
+  }
 }
