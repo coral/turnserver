@@ -23,6 +23,10 @@ Triggers.loadTriggers();
 io.on('connection', function (socket) {
 
 	socket.on('turn', function (data) {
+		if(data.turn ==  true)
+		{
+			Trigger.fire(data.computer);
+		}
 		socket.broadcast.emit('turn', data);
 	});
 

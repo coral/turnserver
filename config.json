@@ -1,3 +1,12 @@
 {
-	"haha": "no config required"
+	"haha": "no config required",
+	"ok": "i lied",
+	"here is": "config",
+	"production": "herffstone",
+	"production_fetch": "http://10.75.254.80/production/get/",
+	"router": "http://10.75.254.80:4545",
+	"identifiers": {
+		"left": 1,
+		"right": 2
+	}
 }
